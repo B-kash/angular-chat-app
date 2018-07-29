@@ -1,0 +1,11 @@
+<div class="outer-container">
+  <div class="message-list">
+    <div class="message" *ngFor="let message of messages">
+      {{message}}
+    </div>
+  </div>
+  <div class="message-box">
+    <input type="text form-control" (keydown)="keyPress($event)" class="text-box" [(ngModel)]="message">
+    <button (click)="send()">Send</button>
+  </div>
+</div>

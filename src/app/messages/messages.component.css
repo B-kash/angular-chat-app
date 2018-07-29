@@ -1,0 +1,24 @@
+.message-list{
+  height: 90vh;
+
+}
+
+.outer-container{
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width:100%;
+}
+
+.message-box{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.text-box{
+  width: 90%;
+}
